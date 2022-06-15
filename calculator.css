@@ -1,0 +1,77 @@
+body
+{
+background-image:linear-gradient(to right , rgb(39, 36, 238), rgb(41, 187, 255), rgb(0, 241, 229), rgb(0, 235, 20) ) ;
+
+}
+.body
+{width: 320px;
+height: 480px; margin: 100px auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: black;
+}
+
+.keypad
+{
+height: 80px;
+width: 320px;
+ display: flex;
+
+}
+.keypad button
+{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+color: black;
+height: 80px;width:80px;
+border: 1px solid aquamarine;
+background-color: mediumaquamarine;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+cursor: pointer;
+}
+button:hover
+{
+    background-color: aquamarine;
+}
+#display
+{  display:block;
+    border: 1px solid aquamarine;
+    width: 318px;
+    color: white;
+    
+}
+#previousdisplay{
+    display: flex;
+    justify-content:end;align-items: flex-end;
+    font-size: large; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding-right: 5px;height: 40%;
+}
+#currentdisplay{
+    display: flex;padding-right: 5px;
+    justify-content:end;align-items: flex-end;
+    font-size: xx-large;height: 60%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#AC
+{
+width: 160px;
+}
+
+#DEL
+{
+width: 80px;
+}
+
+#divide
+{
+width: 80px;
+}
+
+#isequalto
+{
+    width: 160px;
+}
